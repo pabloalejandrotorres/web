@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "slides",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "echo \"The app is running, in your dreams.\" && exit 1"
+  },
+  "author": "pablo torres",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1"
+  }
+}

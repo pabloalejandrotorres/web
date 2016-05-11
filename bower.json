@@ -1,0 +1,10 @@
+{
+  "name": "web",
+  "private": true,
+  "dependencies": {
+    "riot": "^2.4.0"
+  },
+  "devDependencies": {
+    "reveal.js": "3.3.0"
+  }
+}
