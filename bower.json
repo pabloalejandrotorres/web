@@ -2,9 +2,10 @@
   "name": "web",
   "private": true,
   "dependencies": {
-    "riot": "^2.4.0"
+    "riot": "^2.4.0",
+    "reveal.js": "3.3.0",
+    "reveal.js-menu": "^0.6.0"
   },
   "devDependencies": {
-    "reveal.js": "3.3.0"
   }
 }
