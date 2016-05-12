@@ -8,7 +8,6 @@ test/bower_components
 manifests
 test/casper/capture
 .cache
-app/scripts/index.js
 
 # OS X stuff
 .DS_Store
