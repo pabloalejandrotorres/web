@@ -1,84 +1,77 @@
 <web-html>
   <section>
-    <h2>¿Que es HTML?</h2>
-    <p class="fragment fade-in">HyperText Markup Language</p>
+    <h1>¿HTML5?</h1>
+  </section>
+  <section>
+    <div class="stretch">
+      <img src="images/html5-logo.png" alt="html5 logo">
+    </div>
     <ul>
-      <li class="fragment fade-in">Ya sabemos mas o menos que es...</li>
-      <li class="fragment fade-in">Un formato estructurado de documentos</li>
-      <li class="fragment fade-in">Para la web, y no solo para la web</li>
-      <li class="fragment fade-in">Basado en "markup"</li>
+      <li class="fragment fade-in">¿Cual es la diferencia con HTML4?</li>
+      <!-- Se agregan etiquetas (que se van a ver) con el objetivo de mejorar la semantica
+           Nuevas etiquetas y atributos resuelven problemas triviales, por ejemplo:
+              * el atributo placeholder
+              * La etiqueta <input /> acepta un rango mayor de tipos (date/email)
+      -->
+      <li class="fragment fade-in">¿Porque es importante?</li>
+      <!--
+            No solo son etiquetas nuevas y nuevos atributos,
+            HTML5 es una revolucion web, el cual define un estandar para el desarrollo web
+            donde la web dejo de ser solo contenido estatico y comenzo a mover millones de datos
+            via http, esto no es casualidad, el progreso de la tecnologia por ejemplo la mobile
+            ayudo que esto crezca, ya que la mayoria de la gente navega la web desde smartphones
+            -->
+      <li class="fragment fade-in">¿Solo para web?</li>
+      <!-- No, existen tecnologias con las cuales podemos hacer aplicaciones desktop y para mobile con
+           html5, si desktop programando web -->
+      <li class="fragment fade-in">¿Con HTML5 son solo nuevas etiquetas?</li>
+      <!-- No, HTML no es nada sin sus dos queridos amigos -->
     </ul>
   </section>
   <section>
-    <h3>Un documento representa:</h3>
-    <ul class="fragment shrink">
-      <li>Un arbol.</li>
-      <li>Cada nodo es un <em>elemento</em> o <em>character</em> data.</li>
-      <li>Los <em>elementos</em> pueden tener subnodos.</li>
-    </ul>
     <div class="stretch">
-      <img class="fragment fade-in"
-           data-src="images/html-tree-representation.png"
-           alt="tree representation">
+      <img src="images/css3_logo.jpg" alt="CSS logo">
+    </div>
+    <ul>
+      <li class="fragment fade-in">¿Que es?</li>
+      <!-- CSS es el "lenguaje" que nos ayuda a darle estilo a nuestra aplicacion -->
+      <li class="fragment fade-in">¿Que tiene que ver con HTML5?</li>
+      <!-- Con css podemos no solo dar estilo para que se vea bonito, sino dar interactividad a nuestros elementos
+           podemos capturar eventos como :hover.
+           No usar etiquetas para dar estilo como por ejemplo <br> <strong> -->
+      <li class="fragment fade-in">¿Porque es bueno aprenderlo?</li>
+      <!-- si bien todo entra por los ojos, CSS nos ayuda a tener un codigo Javascript
+           mas simple delegando animaciones y captura de eventos  -->
+    </ul>
+  </section>
+  <section>
+    <div class="stretch">
+      <img src="images/html_css.jpg" alt="CSS logo">
     </div>
   </section>
   <section>
-    <h3>Cada elemento tiene</h3>
+    <div class="stretch">
+      <img src="images/javascript.png" alt="JS logo">
+    </div>
     <ul>
-      <li class="fragment fade-in">Un elemento tiene un "tipo" (párrafo, imágen, botón, título)</li>
-      <li class="fragment fade-in">
-        El tipo determina que contenido es válido
-        <ul class="fragment fade-in">
-            <li>No puede ir cualquier cosa dentro de cualquier cosa</li>
-            <li>No pueden ir en cualquier orden</li>
-        </ul>
-      </li>
-      <li class="fragment fade-in">Un elemento tiene una colección desordenada de "atributos" (pares clave/valor)</li>
+      <li class="fragment fade-in">¿Que es?</li>
+      <!--
+           Javascript es un lenguaje de programacion, HTML y CSS no son lenguajes de programacion.
+           Javascript es el lenguaje elegido por HTML5 (W3C) como el lenguaje de scripting para la web
+           si bien existieron otros como VBscript, no puedieron igualar el potencial de JS.
+       -->
+      <li class="fragment fade-in">¿Solo para la web?</li>
+      <!-- Existen herramientas como NodejS que es javascript en backend.
+           Es rapido, potente
+            -->
     </ul>
   </section>
   <section>
-      <h3>Elementos frecuentemente usados</h3>
-      <ul>
-        <li>Documento: <code>&lt;html&gt;, &lt;head&gt;, &lt;body&gt;</code></li>
-        <li>Encabezado: <code>&lt;title&gt;, &lt;link&gt;, &lt;script&gt;, &lt;meta&gt;, &lt;style&gt;</code></li>
-        <li>Titulos: <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code></li>
-        <li>Contenido: <code>&lt;p&gt;, &lt;br&gt;, &lt;img&gt;, &lt;a&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;code&gt;, &lt;pre&gt;</code></li>
-        <li>Estructura: <code>&lt;div&gt;, &lt;span&gt;</code></li>
-        <li>Listas: <code>&lt;ol&gt;, &lt;ul&gt;, &lt;dl&gt;</code></li>
-        <li>Citas: <code>&lt;q&gt;, &lt;blockquote&gt;</code></li>
-      </ul>
+      <img src="images/logos.png" alt="logos">
   </section>
   <section>
-    <h3>Etiquetas de estructura</h3>
-    <ul>
-      <li class="fragment fade-in">doctype</li>
-      <li class="fragment fade-in">html</li>
-      <li class="fragment fade-in">head</li>
-      <li class="fragment fade-in">body</li>
-    </ul>
-  </section>
-  <section>
-    <h3>Atributos globales</h3>
-    <ul>
-      <li>id</li>
-      <li>class</li>
-      <li>style</li>
-      <li>data-*</li>
-      <li>lang</li>
-      <li>title</li>
-    </ul>
-  </section>
-  <section>
-    <h3>Formularios</h3>
-    <ul class="fragment fade-in">
-      <li><code>&lt;form&gt;</code></li>
-      <ul class="fragment fade-in">
-        <li>action</li>
-        <li>method</li>
-        <li>name</li>
-        <li>novalidate</li>
-        <li>target</li>
-      </ul>
-    </ul>
+    <div class="stretch">
+      <img src="images/html5-logo.jpg" alt="logos">
+    </div>
   </section>
 </web-html>
