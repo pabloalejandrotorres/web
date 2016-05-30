@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "slides",
   "engines": {
@@ -8,9 +8,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "gulp serve"
+    "serve": "gulp serve",
+    "install-dependencies": "bower install"
   },
-  "author": "pablo torres",
+  "author": "Pablo Torres",
   "license": "ISC",
   "devDependencies": {
     "bower": "^1.7.9",

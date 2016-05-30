@@ -1,9 +1,12 @@
 (function() {
     "use strict";
 
+    riot.mount('*');
+
     var dependencies = [
         {
-            src: '/bower_components/reveal.js/plugin/markdown/marked.js'
+            src: '/bower_components/reveal.js/plugin/markdown/marked.js',
+            condition: function() { return !!document.querySelector( '[data-markdown]' ); }
         },
         {
             src: '/bower_components/reveal.js/plugin/markdown/markdown.js'
