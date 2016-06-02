@@ -12,20 +12,7 @@
 </head>
 <body>
     <div class="reveal">
-        <div class="slides">
-            <section>
-                <h1>clase 0</h1>
-                <p>Lineamientos generales y repaso/introduccion</p>
-            </section>
-            <section riot-tag="web-introduction"></section>
-            <section>
-              <h1>HTML 5</h1>
-              <img src="images/html5-logo.jpg" alt="html5 logo">
-            </section>
-            <section riot-tag="web-html">
-            </section>
-            <section riot-tag="web-elements"></section>
-        </div>
+        <div class="slides" riot-tag="@echo LESSON"></div>
     </div>
 
     <script src="/bower_components/reveal.js/lib/js/head.min.js"></script>
@@ -33,9 +20,16 @@
     <script src="/bower_components/reveal.js-menu/menu.js"></script>
     <script src="/bower_components/riot/riot+compiler.min.js"></script>
 
-    <script src="components/introduction.tag" type="riot/tag"></script>
-    <script src="components/html.tag" type="riot/tag"></script>
-    <script src="components/elements_html5.tag" type="riot/tag"></script>
+    <!-- @if LESSON='lesson_0' -->
+    <script src="components/lesson_0/index.tag" type="riot/tag"></script>
+    <script src="components/lesson_0/introduction.tag" type="riot/tag"></script>
+    <script src="components/lesson_0/html.tag" type="riot/tag"></script>
+    <script src="components/lesson_0/elements_html5.tag" type="riot/tag"></script>
+    <!-- @endif -->
+
+    <!-- @if LESSON='lesson_2' -->
+    <!-- @endif -->
+
     <script src="scripts/index.js"></script>
 
 
