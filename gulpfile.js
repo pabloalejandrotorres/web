@@ -1,12 +1,12 @@
 /* Globals */
 'use strict';
 
-var gulp = require('gulp');
-var browserSync = require('browser-sync');
-var $ = require('gulp-load-plugins')();
+const gulp = require('gulp');
+const browserSync = require('browser-sync');
+const $ = require('gulp-load-plugins')();
 
-var reloadSync = browserSync.reload;
-var argv = require('yargs').argv;
+const reloadSync = browserSync.reload;
+const argv = require('yargs').argv;
 
 // TODO: remove this and change it for a regular function.
 gulp.task('reload', reloadSync);
