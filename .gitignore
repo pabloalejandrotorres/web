@@ -1,6 +1,7 @@
 .idea/
 node_modules
 dist
+app/index.html
 .tmp
 .sass-cache
 bower_components

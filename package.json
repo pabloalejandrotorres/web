@@ -7,16 +7,20 @@
     "node": ">=0.12"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "gulp serve",
-    "install-dependencies": "bower install"
+    "install-dependencies": "bower install",
+    "clean": "gulp clean",
+    "lesson_0": "gulp serve --lesson 'lesson_0'"
   },
   "author": "Pablo Torres",
   "license": "ISC",
   "devDependencies": {
     "bower": "^1.7.9",
     "browser-sync": "^2.12.7",
+    "del": "^2.2.0",
     "gulp": "^3.9.1",
-    "gulp-load-plugins": "^1.2.2"
+    "gulp-load-plugins": "^1.2.2",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "yargs": "^4.7.1"
   }
 }
