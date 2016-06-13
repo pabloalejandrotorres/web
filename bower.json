@@ -4,8 +4,8 @@
   "dependencies": {
     "riot": "^2.4.0",
     "reveal.js": "3.3.0",
-    "reveal.js-menu": "^0.6.0"
+    "reveal.js-menu": "^0.6.0",
+    "bootstrap": "^3.3.6"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

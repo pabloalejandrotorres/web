@@ -9,7 +9,8 @@
   "scripts": {
     "install-dependencies": "bower install",
     "clean": "gulp clean",
-    "lesson_0": "gulp serve --lesson 'lesson_0'"
+    "lesson_0": "gulp serve --lesson 'lesson_0'",
+    "lesson_1": "gulp serve --lesson 'lesson_1'"
   },
   "author": "Pablo Torres",
   "license": "ISC",

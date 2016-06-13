@@ -7,8 +7,10 @@
   <title>web development</title>
 
   <!-- Style dependencies -->
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="/bower_components/reveal.js/css/reveal.css">
   <link rel="stylesheet" href="/bower_components/reveal.js/css/theme/black.css">
+  <link rel="stylesheet" href="/bower_components/reveal.js/lib/css/zenburn.css">
 </head>
 <body>
   <div class="reveal">
@@ -29,8 +31,15 @@
   <!-- @endif -->
 
   <!-- @if LESSON='lesson_1' -->
-
+  <script src="components/lesson_1/index.tag" type="riot/tag"></script>
+  <script src="components/lesson_1/statements.tag" type="riot/tag"></script>
+  <script src="components/lesson_1/enviroment.tag" type="riot/tag"></script>
+  <script src="components/lesson_1/this.tag" type="riot/tag"></script>
   <!-- @endif -->
+
+  <!-- utils -->
+  <script src="components/utils/eval_code.tag" type="riot/tag"></script>
+
   <script src="scripts/index.js"></script>
 </body>
 </html>

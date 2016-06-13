@@ -27,7 +27,7 @@ gulp.task('watch', function() {
   // watch for changes
   gulp.watch([
       'app/index_dev.html',
-      'app/components/*.tag',
+      'app/components/**',
       'app/scripts/**/*.js',
       'app/scripts/*.js',
       'app/images/**/*'
