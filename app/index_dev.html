@@ -14,7 +14,6 @@
 </head>
 <body>
   <div class="reveal">
-    <!-- TODO: use the environment variable to get the lesson number -->
     <div class="slides" riot-tag="<!-- @echo LESSON-->"></div>
   </div>
 
@@ -41,6 +40,12 @@
   <script src="components/lesson_2/index.tag" type="riot/tag"></script>
   <script src="components/lesson_2/this.tag" type="riot/tag"></script>
   <script src="components/lesson_2/inheritance.tag" type="riot/tag"></script>
+  <!-- @endif -->
+
+  <!-- @if LESSON='lesson_3' -->
+  <script src="components/lesson_3/index.tag" type="riot/tag"></script>
+  <script src="components/lesson_3/selectors.tag" type="riot/tag"></script>
+  <script src="components/lesson_3/box-model.tag" type="riot/tag"></script>
   <!-- @endif -->
 
   <!-- utils -->
